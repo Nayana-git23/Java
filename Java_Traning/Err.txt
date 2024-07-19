@@ -1,0 +1,6 @@
+class Err
+{
+class Egg
+{
+}
+}
