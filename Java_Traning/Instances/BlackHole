@@ -1,0 +1,7 @@
+class BlackHole
+{
+public  BlackHOle()
+{
+System.out.println("Running in BlackHOle");
+}
+}
