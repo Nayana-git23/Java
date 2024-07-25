@@ -3,8 +3,9 @@ class ExampleTwoRunner
 public static void main(String[] args)
 {
 	Matrimony matrimony=new Matrimony();
-	
-     
+	matrimony.phoneNo=8197801706l;
+	matrimony.email="abc@gmail.com";
+     matrimony.MatrimonyName="match maker";
 	System.out.println(matrimony.MatrimonyName);
 	System.out.println(matrimony.phoneNo);
 	System.out.println(matrimony.email);

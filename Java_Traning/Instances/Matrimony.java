@@ -1,6 +1,6 @@
 class Matrimony
 {
-String MatrimonyName="Shhadi.com";
+String MatrimonyName;
 long phoneNo=6362501506l;
 String email="kjnayana8@gmail.com";
  
