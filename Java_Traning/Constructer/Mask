@@ -1,0 +1,34 @@
+class Mask
+{
+	double cost;
+	char size;
+	String material;
+public Mask()
+{
+	System.out.println("Running in no parameter constructer");
+}
+public Mask(double cost)
+{
+	this.cost=cost;
+}
+public Mask(int size)
+{
+	this.size=size;
+}
+public Mask(String meterial)
+{
+	this.material=meterial;
+}
+public Mask(cost,size,material)
+{
+	this.cost=cost;
+	this.size=size;
+	this.material=meterial;
+}
+public Mask(cost size)
+{
+	this.cost=cost;
+	this.size=size;
+}
+}
+	
