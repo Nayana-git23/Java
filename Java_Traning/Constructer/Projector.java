@@ -5,6 +5,8 @@ class Projector
   String color;
   double weight=2;
   
+  
+  
   public Projector(String company)
   {
 	  this.company=company;

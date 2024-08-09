@@ -2,7 +2,7 @@ class PaperRunner
 {
 public static void main(String args[])
 {
-	Paper paper=new Paper('M');
+	Paper a=new Paper('M');
 	paper.setisQualityGood(true);
 	paper.color="pink";
 	paper.display();
