@@ -1,0 +1,20 @@
+package com.xworkz.task;
+
+public class Bike
+{
+String[] bikes=new String[7];
+int index;
+
+public Bike(String bikes)
+{
+	this.bikes[this.index]=bikes;
+	index++;
+}
+public void display()
+{
+	for(String bikuu:bikes)
+	{
+		System.out.println("bike names"+bikuu);
+	}
+	}
+}

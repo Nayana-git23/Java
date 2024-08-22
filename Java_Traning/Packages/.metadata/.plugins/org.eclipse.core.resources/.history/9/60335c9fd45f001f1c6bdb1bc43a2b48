@@ -1,0 +1,19 @@
+package com.xworkz.runner;
+
+import com.xworkz.task.Bike;
+
+public class BikeRunner 
+{
+	public static void main(String args[]) 
+	{
+		new Bike("Apache");
+		new Bike("Hero");
+		new Bike("Honda");
+		new Bike("TVS Star City Plus");
+		new Bike("KTM");
+		new Bike("TVS Victor");
+		new Bike("Platina");
+	}
+
+}
+

@@ -1,0 +1,14 @@
+package com.xworkz.task;
+
+public class Sweet {
+	String[] sweets=new String[7];
+	int position;
+	
+	public Sweet(String sweetname)
+	{
+		this.sweets[this.position]=sweetname;
+		position++;
+	}
+	public void
+
+}

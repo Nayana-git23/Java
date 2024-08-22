@@ -1,0 +1,8 @@
+package com.xworkz.runner;
+
+import com.xworkz.task.River;
+
+public class RiverRunnner {
+	River river=new River("Kaali");
+
+}

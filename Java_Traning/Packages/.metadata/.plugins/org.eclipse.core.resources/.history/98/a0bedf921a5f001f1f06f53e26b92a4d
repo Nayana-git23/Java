@@ -1,0 +1,54 @@
+package com.xworkz.training.engineering;
+
+public class Plant 
+{
+	String plantName;
+	String uses;
+	double length;
+	String areagrown;
+	String color;
+	int lifeSpan;
+	boolean isFlowering;
+	String habitate;
+	boolean isEdible;
+	String waterRequirement;
+	
+	public Plant(String plantName,
+String uses,
+	double length,
+	String areagrown,
+	String color,
+	int lifeSpan,
+	boolean isFlowering,
+	String habitate,
+	boolean isEdible,
+	String waterRequirement)
+	{
+	this.plantName=plantName;
+	this.areagrown=areagrown;
+	this.uses=uses;
+	this.color=color;
+	this.areagrown=areagrown;
+	this.length=length;
+	this.lifeSpan=lifeSpan;
+	this.isFlowering=isFlowering;
+	this.habitate=habitate;
+	this.isEdible=isEdible;
+	this.waterRequirement=waterRequirement;
+	}
+	
+	public void gida()
+	{
+		System.out.println(plantName);
+		System.out.println(areagrown);
+		System.out.println(uses);
+		System.out.println(color);
+		System.out.println(lifeSpan);
+		System.out.println(isFlowering);
+		System.out.println(habitate);
+		System.out.println(isEdible);
+		System.out.println(waterRequirement);
+		System.out.println(length);
+	}
+
+}

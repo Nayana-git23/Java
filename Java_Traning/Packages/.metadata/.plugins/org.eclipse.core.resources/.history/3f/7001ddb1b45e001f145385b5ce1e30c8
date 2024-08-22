@@ -1,0 +1,8 @@
+package com.xworkz.training;
+
+ class Snake {
+   
+	 Snake(){
+		 System.out.println("Hello World");
+	 }
+}

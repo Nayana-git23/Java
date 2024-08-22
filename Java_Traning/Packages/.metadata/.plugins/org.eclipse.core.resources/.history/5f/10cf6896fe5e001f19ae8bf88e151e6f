@@ -1,0 +1,25 @@
+package com.xworkz.training.engineering;
+
+public class PlantRunner 
+{
+
+	public static void main(String[] args) 
+	{
+		Plant plant = new Plant("sarpagandha", "Medicine", 2, "asia", "green", 5, true, "deep forest", true, "2L");
+		Plant plant1 = new Plant("mahagani", "furniture", 100, "asia", "green", 5, true, "semi forest", false, "15L");
+
+		
+		Plant[] ref=new Plant[2];
+		ref[0]=plant;
+		ref[1]=plant1;
+		
+		for(Plant gidaMara:ref)
+		{
+			System.out.println(gidaMara);
+			gidaMara.gida();
+		}
+		}
+		
+	}
+
+
